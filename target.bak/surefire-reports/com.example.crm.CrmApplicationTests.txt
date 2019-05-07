@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.example.crm.CrmApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.108 s <<< FAILURE! - in com.example.crm.CrmApplicationTests
+findAll(com.example.crm.CrmApplicationTests)  Time elapsed: 1.373 s  <<< ERROR!
+org.mybatis.spring.MyBatisSystemException: 
+nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: null,  message from server: "Host '222.204.49.216' is not allowed to connect to this MySQL server"
+### The error may exist in file [/home/lcb/IdeaProjects/springboot-crm/target/classes/mapper/DictMapper.xml]
+### The error may involve com.example.crm.mapper.DictMapper.findAll
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: null,  message from server: "Host '222.204.49.216' is not allowed to connect to this MySQL server"
+	at com.example.crm.CrmApplicationTests.findAll(CrmApplicationTests.java:25)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: null,  message from server: "Host '222.204.49.216' is not allowed to connect to this MySQL server"
+### The error may exist in file [/home/lcb/IdeaProjects/springboot-crm/target/classes/mapper/DictMapper.xml]
+### The error may involve com.example.crm.mapper.DictMapper.findAll
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: null,  message from server: "Host '222.204.49.216' is not allowed to connect to this MySQL server"
+	at com.example.crm.CrmApplicationTests.findAll(CrmApplicationTests.java:25)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: null,  message from server: "Host '222.204.49.216' is not allowed to connect to this MySQL server"
+	at com.example.crm.CrmApplicationTests.findAll(CrmApplicationTests.java:25)
+Caused by: java.sql.SQLException: null,  message from server: "Host '222.204.49.216' is not allowed to connect to this MySQL server"
+	at com.example.crm.CrmApplicationTests.findAll(CrmApplicationTests.java:25)
+

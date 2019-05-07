@@ -1,0 +1,17 @@
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/mapper/DictMapper.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/bean/dict.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/utils/NavigationTag.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/bean/customer.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/service/DictService.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/CrmApplication.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/dao/CustDao.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/dao/DictDao.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/controller/CrmController.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/service/serviceImpl/CustServiceImpl.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/bean/user.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/service/CustService.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/bean/SearchCust.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/utils/Page.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/mapper/CustMapper.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/config/WebMvcConfig.java
+/home/lcb/IdeaProjects/springboot-crm/src/main/java/com/example/crm/service/serviceImpl/DictServiceImpl.java

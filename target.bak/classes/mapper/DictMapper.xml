@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.crm.mapper.DictMapper">
+    <resultMap id="baseResultMap" type="com.example.crm.bean.dict">
+        <id column="dict_id" property="dict_id" jdbcType="VARCHAR"/>
+        <result column="dict_type_code" property="dict_type_code" jdbcType="VARCHAR"/>
+        <result column="dict_type_name" property="dict_type_name" jdbcType="VARCHAR"/>
+        <result column="dict_item_name" property="dict_item_name" jdbcType="VARCHAR"/>
+        <result column="dict_item_code" property="dict_item_code" jdbcType="VARCHAR"/>
+        <result column="dict_sort" property="dict_sort" jdbcType="INTEGER"/>
+        <result column="dict_enable" property="dict_enable" jdbcType="VARCHAR"/>
+        <result column="dict_memo" property="dict_memo" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="findAll" resultMap="baseResultMap">
+        select dict_id,dict_type_code,dict_type_name,dict_item_name,dict_item_code,dict_sort,dict_enable,dict_memo from base_dict
+    </select>
+</mapper>
